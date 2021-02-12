@@ -55,6 +55,7 @@ const SignUp: React.FC = () => {
             icon={FiLock}
             type="password"
             placeholder="Senha"
+            autoComplete="on"
           />
 
           <Button type="submit">Cadastrar</Button>
