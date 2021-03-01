@@ -1,5 +1,9 @@
 # gostack-gobarber-web
 
+<h4 align="center"> 
+	🚧  🚀 Em etapa de finalização  🚧
+</h4>
+
 ## Tecnologias
 
 Esse projeto está sendo desenvolvido com as seguintes tecnologias:
