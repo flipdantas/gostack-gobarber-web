@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { shade } from 'polished';
+import { shade, darken } from 'polished';
 import ArrowLeftIcon from '../../assets/ArrowLeftIcon.svg';
 import ArrowRightIcon from '../../assets/ArrowRightIcon.svg';
 
@@ -54,8 +54,13 @@ export const Profile = styled.div`
       color: #f4ede8;
     }
 
-    strong {
+    a {
+      text-decoration: none;
       color: #ff9000;
+
+      &:hover {
+        color: ${darken(0.15, '#ff9000')};
+      }
     }
   }
 `;
